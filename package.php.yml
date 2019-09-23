@@ -1,0 +1,14 @@
+name: jphp-cglib-ext
+version: 1.0.0
+
+plugins:
+  - Gradle
+  - Hub
+
+deps:
+  jphp-runtime: "*"
+  java-reflection-ext: "*"
+
+gradle:
+  deps:
+    - "cglib:cglib:3.2.4"
